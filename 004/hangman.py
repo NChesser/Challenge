@@ -101,14 +101,3 @@ if __name__ == "__main__":
 
     for player in get_highscores():
         print(player[0] + " made " + str(player[1] + " wrong guesses"))
-
-    
-    
-    
-        
-
-
-
-
-
-    
