@@ -8,3 +8,5 @@ Coding challenge attempt
 #003 - Grabs coin prices from coinmarketcap 
 
 #004 - Simple hangman game with highscores
+
+#006 - Some decorator examples
