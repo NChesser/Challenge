@@ -9,4 +9,6 @@ Coding challenge attempt
 
 #004 - Simple hangman game with highscores
 
+#005 - Budgeter with sqlite3 database 
+
 #006 - Some decorator examples
