@@ -6,3 +6,5 @@ Coding challenge attempt
 #002 - Generating highest value Scrabble word given a random hand
 
 #003 - Grabs coin prices from coinmarketcap 
+
+#004 - Simple hangman game with highscores
