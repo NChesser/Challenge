@@ -12,3 +12,5 @@ Coding challenge attempt
 #005 - Budgeter with sqlite3 database 
 
 #006 - Some decorator examples
+
+#007 - Data analysis of Marvel characters, with some Pandas and Matplotlib
