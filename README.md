@@ -14,3 +14,5 @@ Coding challenge attempt
 #006 - Some decorator examples
 
 #007 - Data analysis of Marvel characters, with some Pandas and Matplotlib
+
+#008 - Script for calculating Monopoly odds
