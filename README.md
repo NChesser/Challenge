@@ -16,3 +16,5 @@ Coding challenge attempt
 #007 - Data analysis of Marvel characters, with some Pandas and Matplotlib
 
 #008 - Script for calculating Monopoly odds
+
+#010 - Simple Flask App
