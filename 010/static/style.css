@@ -1,0 +1,38 @@
+body {
+	text-align: center;
+}
+
+h1 {
+	color: gold;
+}
+
+.centered {
+	margin: auto;
+	width: 20%;
+}
+
+.thick-border {
+	border: 3px solid black;
+	border-collapse: collapse;
+}
+
+th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+}
+
+#gold {
+	color: gold;
+}
+
+a {
+	text-decoration: none;
+	color: gray;
+	margin-right: 10px;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: red;
+}

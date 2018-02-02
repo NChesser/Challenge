@@ -1,0 +1,28 @@
+<!doctype html>
+
+{% extends "base.html" %}
+
+{% block content %}
+	<form action="/" method="POST">
+		<label>Enter the coin you want: </label>
+		<input type="text" name="coin" value="{{ request.form['coin'] }}" />
+		<button type="submit">Go</button>
+	</form>
+
+	<br><hr><br>
+
+	<table class="centered thick-border">
+		<tr>
+			<th>Name</th>
+			<th id="gold">Price</th>
+			<th>Change(24h)</th>
+		</tr>
+		{% for coin in coins %}
+			<tr>
+				<td>{{ coin._name }}</td>
+				<td id="gold">{{ coin._price }}</td>
+				<td>{{ coin._change }}</td>
+			</tr>	
+		{% endfor %}
+	</table>
+{% endblock %}

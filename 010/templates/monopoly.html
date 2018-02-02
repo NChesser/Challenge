@@ -1,0 +1,30 @@
+<!doctype html>
+
+{% extends "base.html" %}
+
+{% block content %}
+	<table class="centered thick-border">
+		<tr>
+			<th>Square</th>
+			<th>Percentage</th>
+		</tr>
+		{% for k, v in squares.items() %}
+			{% if k == 'GO' %}
+				<tr>
+					<td id='go'>{{ k }}</td>
+					<td>{{ v }}</td>
+				</tr>
+			{% elif k == 'JAIL' %}
+				<tr>
+					<td id='jail'>{{ k }}</td>
+					<td>{{ v }}</td>
+				</tr>
+			{% else %}
+				<tr>
+					<td>{{ k }}</td>
+					<td>{{ v }}</td>
+				</tr>	
+			{% endif %}	
+		{% endfor %}
+	</table>
+{% endblock %}
